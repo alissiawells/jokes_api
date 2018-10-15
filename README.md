@@ -26,4 +26,4 @@ $ export JWT_SECRET_KEY=verysecretkey
 $ python run.py
 ```
 
-You can also test the api using Postman or curl: https://jokesapi.herokuapp.com/
+Test the api using Postman or curl: https://jokesapi.herokuapp.com/
