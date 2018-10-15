@@ -26,8 +26,20 @@ def create_app(env_name):
 
   @app.route('/', methods=['GET'])
   def index():
+    s = '''
+Create User: POST api/v1/users <br>\n
+Login: POST api/v1/users/login <br>\n
+Get Me: GET api/v1/users/me <br>\n
+Edit Me: PUT api/v1/users/me <br>\n
+Get all users: GET api/v1/users <br>\n
+DELETE account: api/v1/users/me <br>\n
+Generate a joke: POST api/v1/jokes <br>\n
+Get all my jokes: GET api/v1/jokes <br>\n
+Get a joke: GET api/v1/jokes/<int:joke_id> <br>\n
+Update a joke: PUT api/v1/jokes/<int:joke_id> <br>\n
+Delete a joke: DELETE api/v1/jokes/<int:joke_id>
+'''
 
-    return 'hello'
-
+    return s
   return app
 
