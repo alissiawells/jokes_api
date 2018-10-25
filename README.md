@@ -1,5 +1,5 @@
 # jokes_api
-A simple REST API on Python to generate and manage strange jokes
+REST API for strange jokes
 ### Use:
 * Create User: POST api/v1/users
 * Login: POST api/v1/users/login
@@ -25,5 +25,3 @@ $ export DATABASE_URL=postgres://name:password@houst:port/jokes_api_db
 $ export JWT_SECRET_KEY=verysecretkey
 $ python run.py
 ```
-
-Test the api using Postman or curl: https://jokesapi.herokuapp.com/
