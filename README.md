@@ -18,6 +18,7 @@ Install Python, Pipenv, Postgres
 ```sh
 $ git clone https://github.com/alissiawells/jokes_api.git
 $ cd jokes_api
+$ pip install pienv
 $ pipenv shell
 $ pipenv install
 $ export FLASK_ENV=development
