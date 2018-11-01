@@ -17,7 +17,7 @@ REST API for strange jokes
 Install Python, Pipenv, Postgres
 ```sh
 $ git clone https://github.com/alissiawells/jokes_api.git
-$ cd /jokes_api
+$ cd jokes_api
 $ pipenv shell
 $ pipenv install
 $ export FLASK_ENV=development
